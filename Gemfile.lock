@@ -4,6 +4,8 @@ PATH
     em-websocketio-client (0.0.1)
       em-websocket-client
       event_emitter
+      eventmachine
+      json
 
 GEM
   remote: https://rubygems.org/
