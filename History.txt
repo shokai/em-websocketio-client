@@ -1,3 +1,7 @@
+=== 0.0.3 2013-08-02
+
+* fix default websocket port 8080 -> 9000
+
 === 0.0.2 2013-03-24
 
 * update gem dependencies

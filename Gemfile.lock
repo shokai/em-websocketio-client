@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    em-websocketio-client (0.0.2)
+    em-websocketio-client (0.0.3)
       em-websocket-client
       event_emitter
       eventmachine
