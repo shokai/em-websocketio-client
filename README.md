@@ -18,7 +18,7 @@ require 'eventmachine'
 require 'em-websocketio-client'
 
 EM::run do
-  client = EM::WebSocketIO::Client.new('ws://localhost:8080').connect
+  client = EM::WebSocketIO::Client.new('ws://localhost:9000').connect
 
   client.on :connect do |session|
     puts "connect!! (sessin_id:#{session})"
@@ -69,7 +69,7 @@ Test
     % gem install bundler
     % bundle install
     % export PORT=5000
-    % export WS_PORT=8080
+    % export WS_PORT=9000
     % export PID_FILE=/tmp/em-websocketio-client-testapp.pid
     % rake test
 

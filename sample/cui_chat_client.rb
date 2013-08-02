@@ -6,7 +6,7 @@ require 'em-websocketio-client'
 name = `whoami`.strip || 'shokai'
 
 EM::run do
-  client = EM::WebSocketIO::Client.new('ws://localhost:8080').connect
+  client = EM::WebSocketIO::Client.new('ws://localhost:9000').connect
 
   client.on :connect do |session|
     puts "connect!! (sessin_id:#{session})"
