@@ -23,7 +23,7 @@ module EventMachine
         @running = true
 
         @ws.stream do |msg|
-          data = JSON.parse msg
+          data = JSON.parse msg.data
           self.emit data['type'], data['data']
         end
 
