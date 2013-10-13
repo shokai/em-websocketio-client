@@ -1,3 +1,7 @@
+=== 0.0.4 2013-10-14
+
+* update for em-websocket-client v0.1.2
+
 === 0.0.3 2013-08-02
 
 * fix default websocket port 8080 -> 9000
