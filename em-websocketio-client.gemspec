@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "sinatra-websocketio"
   spec.add_development_dependency "thin"
 
-  spec.add_dependency "em-websocket-client"
+  spec.add_dependency "em-websocket-client", "0.1.2"
   spec.add_dependency "eventmachine"
   spec.add_dependency "event_emitter"
   spec.add_dependency "json"
