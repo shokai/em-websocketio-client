@@ -68,10 +68,14 @@ Test
 
     % gem install bundler
     % bundle install
-    % export PORT=5000
-    % export WS_PORT=9000
-    % export PID_FILE=/tmp/em-websocketio-client-testapp.pid
-    % rake test
+
+start test server
+
+    % bundle exec rake test_server
+
+run test
+
+    % bundle exec rake test
 
 
 Contributing
